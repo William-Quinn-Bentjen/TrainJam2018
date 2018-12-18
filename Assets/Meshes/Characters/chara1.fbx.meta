@@ -1,40 +1,38 @@
 fileFormatVersion: 2
-guid: 30c972c3c323e264ba90a5b2182d4339
+guid: 8058e71fc6bb7244e9d1ea2a38efec0e
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Black2
-    100002: Brown1
-    100004: Glass
-    100006: Grey2
-    100008: //RootNode
-    100010: White2
-    400000: Black2
-    400002: Brown1
-    400004: Glass
-    400006: Grey2
-    400008: //RootNode
-    400010: White2
-    2100000: Black2Mat
-    2100002: Brown1Mat
-    2100004: GlassMat
-    2100006: Grey2Mat
-    2100008: White2Mat
-    2300000: Black2
-    2300002: Brown1
-    2300004: Glass
-    2300006: Grey2
-    2300008: White2
-    3300000: Black2
-    3300002: Brown1
-    3300004: Glass
-    3300006: Grey2
-    3300008: White2
-    4300000: Black2
-    4300002: Brown1
-    4300004: Glass
-    4300006: Grey2
-    4300008: White2
+    100000: //RootNode
+    100002: joint1
+    100004: joint10
+    100006: joint11
+    100008: joint2
+    100010: joint3
+    100012: joint4
+    100014: joint5
+    100016: joint6
+    100018: joint7
+    100020: joint8
+    100022: joint9
+    100024: pSphere2
+    400000: //RootNode
+    400002: joint1
+    400004: joint10
+    400006: joint11
+    400008: joint2
+    400010: joint3
+    400012: joint4
+    400014: joint5
+    400016: joint6
+    400018: joint7
+    400020: joint8
+    400022: joint9
+    400024: pSphere2
+    2100000: lambert1
+    4300000: pSphere2
+    9500000: //RootNode
+    13700000: pSphere2
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -86,8 +84,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -112,7 +110,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
