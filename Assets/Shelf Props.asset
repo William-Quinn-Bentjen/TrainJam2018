@@ -12,8 +12,18 @@ MonoBehaviour:
   m_Name: Shelf Props
   m_EditorClassIdentifier: 
   Props:
-  - Prop: {fileID: 114546994560130830, guid: dd2ba44fa7a3d9c4eb11619d7746aaea, type: 2}
+  - Prop: {fileID: 114683239157260876, guid: c3b6bf28a8c707b48aba71e62f3268ca, type: 2}
+    SpawnRate: 1
+  - Prop: {fileID: 114929174599694580, guid: 7fc8e106c7d76844085800969b382747, type: 2}
+    SpawnRate: 1
+  - Prop: {fileID: 114181071343761898, guid: 9b86734a00f4410498baf45e6d1fda32, type: 2}
+    SpawnRate: 1
+  - Prop: {fileID: 114310320718674716, guid: 1928f3c42505ea54ea85b06f8f90465a, type: 2}
+    SpawnRate: 0
+  - Prop: {fileID: 114664080237395648, guid: 9f9b95d9c228d144393a959210888f3b, type: 2}
+    SpawnRate: 1
+  - Prop: {fileID: 114472435384174232, guid: 3d73e2545c749e34ca9f95178afa191e, type: 2}
     SpawnRate: 1
   spawnRate: 1
   snapDistance: 1
-  totalWeight: 1
+  totalWeight: 5

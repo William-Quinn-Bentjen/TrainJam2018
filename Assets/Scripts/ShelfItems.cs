@@ -8,7 +8,7 @@ public class ShelfItems : ScriptableObject {
     public class ShelfItemSpawnRate
     {
         public Prop Prop;
-        [Range(0,1)]
+        [Range(0,100)]
         public int SpawnRate = 1;
     }
     public List<ShelfItemSpawnRate> Props = new List<ShelfItemSpawnRate>();
@@ -69,6 +69,8 @@ public class ShelfItems : ScriptableObject {
             }
         }
         prop.SetActive(true);
+        Destroy(prop.GetComponent<Prop>());
+        prop.AddComponent<Pickup>().ResetMe();
         return prop;
     }
     public void PopulateShelf(Shelf shelf)
